@@ -1,0 +1,5 @@
+{
+    "secretName": "dnsmadeeasy-secret",
+    "zoneName": "example.com",
+    "apiUrl" : "https://api.dnsmadeeasy.com/V2.0"
+  }

@@ -6,14 +6,14 @@
 # solve the DNS01 challenge.
 # This group name should be **unique**, hence using your own company's domain
 # here is recommended.FROM golang:1.14.0-alpine AS build_deps
-groupName: acme.unique.company.name
+groupName: acme.company.com
 
 certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
 
 image:
-  repository: zmejg/cert-manager-webhook-dnsmadeeasy
+  repository: demeshchenko/cert-manager-webhook-dnsmadeeasy
   tag: latest
   pullPolicy: IfNotPresent
 

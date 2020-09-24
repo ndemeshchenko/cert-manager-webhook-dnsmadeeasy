@@ -1,0 +1,7 @@
+apiVersion: v2
+name: cert-manager-webhook-dnsmadeeasy
+description: Allow cert-manager to solve DNS challenges using DNSMadeEasy DNS API
+type: application
+version: 0.1.0
+
+appVersion: 1.0.0

@@ -1,6 +1,7 @@
 # Folders
 kubebuilder
 kubebuilder/bin
+testdata/dnsmadeeasy/dnsmadeeasy-secret.yml
 .idea/
 # Binaries for programs and plugins
 *.exe
